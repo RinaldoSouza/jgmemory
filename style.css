@@ -1,0 +1,91 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #3d557d;
+  margin: 0;
+  padding: 20px;
+  color: #ffff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#theme-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #fff;
+}
+
+#timer {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #badde3;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.card.flipped img {
+  display: block;
+}
+
+#restart-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f3141a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background-color: #f3141a;
+}
+
+#ranking {
+  margin-top: 30px;
+}
+
+#ranking-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ranking-list li {
+  margin: 5px 0;
+}
+
+#change-theme-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1d77f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
