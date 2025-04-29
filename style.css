@@ -25,10 +25,12 @@ h1 {
 
 #board {
   display: grid;
-  grid-template-columns: repeat(4, 100px);
-  gap: 10px;
+  grid-template-columns: repeat(4, 90px);
+  gap: 11px;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 .card {
